@@ -11,7 +11,13 @@ body {
     margin: 0px;
 
 }
-
+#contents {
+    width: 960px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px solid #f6bb9e;
+    background-color: #fff;
+}
 h1 {
     width: 300px;
     margin: 40px auto 40px auto;
@@ -33,15 +39,14 @@ main {
     padding: 40px 80px;
     border: 1px solid #f6bb9e;
 }
-.h2{
-    border-radius: 5px 0 0 5px;
-}
 .h-sub{
     padding: 10px;
     background-color: #fbf9cc;
     color: #ff705b;
+    box-shadow: 0, 0, 5px,2px #ffd0ad inset;
+    border-radius: 5px 0 0 5px;
+    border:2px solid red ;
     border-radius: 10px;
-    box-shadow: 0, 0, 5px,2px #ffd02d inset;
 }
 h2 {
     padding: 10px;
@@ -55,4 +60,67 @@ h2 {
 }
 h1,header,nav,footer{
     text-align: center;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+}
+.menu a{
+    display: block;
+    padding: 10px;
+    background: #6fbb9a;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: #90ddbb;
+}
+.imgL{
+    float: left;
+    margin-right: 20px;
+}
+.imgR{
+    float: right;
+    margin-left: 20px;
+}
+.img-round{
+    border-radius: 50%;
+}
+.clear{
+    clear:both;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.more{
+    text-align: right;
+}
+.more ::after{
+    content: url(img/ico_arrow.png);
+    margin-left: 3px;
+    vertical-align: middle;
+}       
+.h-sub span{
+    font-weight: normal;
+}
+a[target="_blank"]::after {
+    content: url(img/ico_blank.png);
+    margin: left 5px;
+    vertical-align: middle;
+}
+a[href^="mailto:"]::after {
+    content: url(img/ico_mail.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+section+section{
+    margin-top: 80px;
+}
+#contents > section +section {
+  margin-top: 80px;
 }
