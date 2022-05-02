@@ -7,13 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>林哲毅的個人履歷</title>
     <link rel="shortcut icon" href="img/game.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style1.css">
     <style>
-        #container {
-            margin: 0px auto;
-            width: 980px;
-            background-color: aquamarine;
-        }
-
         table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
@@ -22,170 +17,167 @@
 
         td,
         th {
-            border: 1px solid #dddddd;
+            border: 1px solid #0e0d0d;
             text-align: left;
-            padding: 8px;
+            padding: 10px;
         }
 
         tr:nth-child(even) {
-            background-color: #dfe20c;
-        }
-
-        header {
-            background-color: cadetblue;
-        }
-
-        nav {
-            background-color: darkorchid;
-        }
-
-        main {
-            background-color: coral;
-        }
-        #school{
-            background-color: rgb(233, 66, 37);
-        }
-        #license{
-            background-color: cornflowerblue;
+            background-color: #ecf009;
         }
     </style>
 </head>
 
 <body>
+
     <div id="container">
         <header>
-            <h1>
-                中文名:林哲毅<br>
-                英文名:LIN,ZHE-YI<br>
-                <br>
-                <img src="img/108111148.jpg" alt="" width="180px" height="200px">
+            <h1 class="h1">
+                108111148林哲毅個人履歷
             </h1>
         </header>
 
-        <hr>
-        <nav>
-            <p>
-                ※自己不努力還要我來做他們接下來如何都不關我的事<br>
-            </p>
+        <nav class="menu">
+            <ul>
+                <li><a href="#motto">座右銘</a></li>
+                <li><a href="#school">學歷</a></li>
+                <li><a href="#license">證照</a></li>
+                <li><a href="#curriculum">課表</a></li>
+                <li><a href="#mail">聯絡方式</a></li>
+            </ul>
         </nav>
+        <h3>
+            <img src="img/108111148.jpg" alt="大頭貼" width="180px" height="200px" class="photo"><br>
+            <p class="p">中文名:林哲毅 <br>
+                英文名:LIN,ZHE-YI<br>
+            </p>
+        </h3>
 
-        <hr>
         <main>
-            <div id="school">
-            <ol>
-                <li><a href="https://www.chps.ntpc.edu.tw/" target="_blank" rel="noopener noreferrer">錦和國小</a></li>
-                <li><a href="https://w3.jhsh.ntpc.edu.tw/ischool/publish_page/18/" target="_blank"
-                        rel="noopener noreferrer">錦和國中</a></li>
-                <li><a href="http://www.jwsh.tp.edu.tw/tc/index.aspx" target="_blank" rel="noopener noreferrer">景文高中</a>
-                </li>
-                <li><a href="https://www.mcut.edu.tw/" target="_blank" rel="noopener noreferrer">明志科技大學</a></li>
-                <li><a href="https://www.aeust.edu.tw/" target="_blank" rel="noopener noreferrer">亞東科技大學</a></li>
-            </ol>
-        </div>
+            <section id="motto">
+                <h2 style="font-size: xx-large;">座右銘</h2>
+                <p style="font-size:x-large; color: rgba(10, 8, 121, 0.986);">
+                    ※積極向上的心態，是成功者的最基本要素。<br>
+                </p>
+            </section>
+            <hr>
+            <div>
+                <h2 style="font-size: xx-large;">學歷</h2>
+                    <ol >
+                        <li style="font-size: larger;"><a href="https://www.chps.ntpc.edu.tw/" target="_blank" rel="noopener noreferrer">錦和國小</a>
+                        </li>
+                        <li style="font-size: larger;"><a href="https://w3.jhsh.ntpc.edu.tw/ischool/publish_page/18/" target="_blank"
+                                rel="noopener noreferrer">錦和國中</a></li>
+                        <li style="font-size: larger;"><a href="http://www.jwsh.tp.edu.tw/tc/index.aspx" target="_blank"
+                                rel="noopener noreferrer">景文高中</a>
+                        </li>
+                        <li style="font-size: larger;"><a href="https://mse.mcut.edu.tw/?Lang=zh-tw" target="_blank"
+                                rel="noopener noreferrer">明志科技大學材料工程系</a></li>
+                        <li style="font-size: larger;"><a href="https://mi.aeust.edu.tw/index.php" target="_blank"
+                                rel="noopener noreferrer">亞東科技大學資訊管理系</a></li>
+                    </ul>
+            </div>
             <hr>
             <div id="license">
-            <ul>
-                <li>MTA Database Fundamentals </li><br>
-                <img src="img/MTA.PNG" alt="" width="300px" height="200px"><br>
-                <li>Statistical knowledge today</li><br>
-                <img src="img/SSE.jpg" alt="" width="300px" height="200px"><br>
-            </ul>
-        </div>
-        </main>
-        <hr>
-        <table>
-            <tr>
-                <th>日</th>
-                <th>一</th>
-                <th>二</th>
-                <th>三</th>
-                <th>四</th>
-                <th>五</th>
-                <th>六</th>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>進階程式設計</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>資訊管理導論</td>
-                <td></td>
-                <td>進階程式設計</td>
-                <td></td>
-                <td>雲端概論</td>
-                <td>專題研究</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>資訊管理導論</td>
-                <td></td>
-                <td>當代文化</td>
-                <td>網頁設計</td>
-                <td>雲端概論</td>
-                <td>專題研究</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>資訊管理導論</td>
-                <td></td>
-                <td>當代文化</td>
-                <td>網頁設計</td>
-                <td>雲端概論</td>
-                <td>專題研究</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>進階程式設計</td>
-                <td>專案管理</td>
-                <td>網頁設計</td>
-                <td>經濟學</td>
-                <td>商業智慧</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>進階程式設計</td>
-                <td>專案管理</td>
-                <td>網頁設計</td>
-                <td>經濟學</td>
-                <td>商業智慧</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td>專案管理</td>
-                <td></td>
-                <td>經濟學</td>
-                <td>商業智慧</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
+                <h2 style="font-size: xx-large;">證照</h2>
+                <ul>
+                    <li style="font-size: x-large; margin-bottom: auto;">MTA Database Fundamentals</li>
+                    <img src="img/MTA.PNG" alt="" width="400px" height="300px" class="imgR"><br>
+                    <li style="font-size: x-large; margin-bottom: auto;">Statistical knowledge today</li><br>
+                    <img src="img/SSE.jpg" alt="" width="400px" height="300px" class="imgL"><br>
+                </ul>
+            </div>
+
+            <hr>
+            <table>
+                <section id="curriculum">
+                    <h2 style="font-size: xx-large;">課表</h2>
+                    <tr>
+                        <th>日</th>
+                        <th>一</th>
+                        <th>二</th>
+                        <th>三</th>
+                        <th>四</th>
+                        <th>五</th>
+                        <th>六</th>
+                    </tr>
+                    <tr>
+                        <td>第一節</td>
+                        <td></td>
+                        <td></td>
+                        <td>進階程式設計</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>第二節</td>
+                        <td>資訊管理導論</td>
+                        <td></td>
+                        <td>進階程式設計</td>
+                        <td></td>
+                        <td>雲端概論</td>
+                        <td>專題研究</td>
+                    </tr>
+                    <tr>
+                        <td>第三節</td>
+                        <td>資訊管理導論</td>
+                        <td></td>
+                        <td>當代文化</td>
+                        <td>網頁設計</td>
+                        <td>雲端概論</td>
+                        <td>專題研究</td>
+                    </tr>
+                    <tr>
+                        <td>第四節</td>
+                        <td>資訊管理導論</td>
+                        <td></td>
+                        <td>當代文化</td>
+                        <td>網頁設計</td>
+                        <td>雲端概論</td>
+                        <td>專題研究</td>
+                    </tr>
+                    <tr>
+                        <td>第五節</td>
+                        <td>進階程式設計</td>
+                        <td>專案管理</td>
+                        <td>網頁設計</td>
+                        <td>經濟學</td>
+                        <td>商業智慧</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>第六節</td>
+                        <td>進階程式設計</td>
+                        <td>專案管理</td>
+                        <td>網頁設計</td>
+                        <td>經濟學</td>
+                        <td>商業智慧</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>第七節</td>
+                        <td></td>
+                        <td>專案管理</td>
+                        <td></td>
+                        <td>經濟學</td>
+                        <td>商業智慧</td>
+                        <td></td>
+                    </tr>
+
+                </section>
+            </table>
+            <hr>
+            <footer>
+                <section id="mail">
+                    <h2 style="font-size: xx-large;">聯絡方式</h2>
+                    <dl>
+                        <dt>信箱：</dt>
+                        <dd><a href="mailto:108111148@mail.aeust.edu.tw" target="mailto:">我的信箱</a></dd>
+            </footer>
+            </section>
     </div>
+    </main>
 </body>
 
 </html>
