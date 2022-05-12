@@ -31,6 +31,7 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
     background-image: linear-gradient(to bottom,#6fbb9a,#4a9d79);
     font-family: 'Limelight', cursive;
+    border-radius: 50%;
 }
 main {
     width: 80%;
@@ -123,4 +124,26 @@ section+section{
 }
 #contents > section +section {
   margin-top: 80px;
+}
+nav{
+    background-color: rgb(50, 250, 150);
+    text-align: center;
+}
+nav ul{
+    margin: 0px;
+}
+nav li{
+    list-style-type:none;
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+nav li a:hover{
+    background-color: lightsalmon;
+    color: darkviolet;
+    transition: background-color 2s linear,color 2s ease-in-out;
 }
