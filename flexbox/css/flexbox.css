@@ -6,7 +6,7 @@ body,ul{
 header{
     position: sticky;           /* 固定在畫面的上方 */
     position: -webkit-sticky;   /* 定位在畫面的上方黏住了 */
-    top: 0;                     
+    top:0;                     
 }
 
 nav{
@@ -41,7 +41,7 @@ nav a:hover{
 .title{
     text-align: center;
     font-family: 'Limelight', cursive;
-    font-family: 'Smooch', cursive;
+    color: rgb(238, 148, 115);
 }
 /* 相片清單樣式設定 */
 #photolist ul{
@@ -63,7 +63,7 @@ nav a:hover{
 }
 .gotop{                      /*回到最上頁*/
     font-size: 60px;
-    color: orange;
+    color: rgb(243, 177, 54);
     position: fixed;
     right: 10px;
     bottom: 10px;
