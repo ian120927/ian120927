@@ -7,7 +7,6 @@ body {
     /* 選單大小 */
     width: 100%;
     height: 200px;
-
 }
 
 #menu ul {
@@ -16,7 +15,6 @@ body {
     /* 重設ul邊界與留白為零 */
     margin: 0;
     padding: 0;
-
     /* 內有浮動元件時，需設overflow才會自動調整大小 */
     overflow: auto;
 }
@@ -51,7 +49,8 @@ body {
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
-    Z-index: 100   /*圖曾在上面，數字遇大愈上層*/
+    Z-index: 1
+        /*圖曾在上面，數字遇大愈上層*/
 }
 
 #menu ul li ul li {
@@ -125,7 +124,7 @@ body {
 
 /* 第一層ul背景色彩與邊框 */
 #menu ul {
-    background: #2fee95;
+    background: rgba(255, 2550, 255, 0.5);
 }
 
 /* 第一層a字型 */
@@ -166,17 +165,25 @@ body {
 #logo {
     position: fixed;
 }
-.Carousel{
+
+.Carousel {
+    position: relative;
+    z-index: 1;
     margin: 0% auto;
     height: 100%;
-    width: px; 
 }
-.col{
+
+.col {
     position: relative;
     width: 100%;
-    padding-right: 0px;
+    padding-top: 100px;
+    padding-right: px;
     padding-left: 0px;
 }
-nav{
+
+nav {
     height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
 }
