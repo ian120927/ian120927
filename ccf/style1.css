@@ -1,0 +1,99 @@
+
+body{
+    background-color: lightgoldenrodyellow;
+    background-image: url(img/720.jpg);
+    background-repeat: repeat-x;
+    background-position: right top;
+    background-size: 50px 100px;
+    color: rgb(3, 1, 7)
+}
+/* 開頭方框 */
+.h1 {   
+    width: 400px;
+    margin: 40px auto 40px auto;
+    padding: 40px;
+    border: 10px solod #06abec;
+    background-color: rgb(24, 56, 240);
+    color: #fff;
+    font-size: 200%;
+    line-height: 1;
+    text-shadow: 1px 1px 2px #a693c0;
+    box-shadow: 0 0 10px rgba(231, 12, 12, 0.5);
+    background-image: linear-gradient(to bottom,#FADCD9,#F0847D);
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 50%;
+}
+
+.p/*姓名*/{                                                      
+    width: 500px;
+    margin: 30px auto 30px auto;
+    padding: 10px;
+    border: 10px solod #111111;
+    color: rgb(5, 5, 5);
+    font-size: 200%;
+    line-height: 1;
+    text-shadow: 1px 1px 2px #ec5c09;
+    box-shadow: 0 0 10px rgba(111, 231, 12, 0.5);
+    background-image: linear-gradient(to bottom,#817DF0,#DBD9FA);
+    font-family: 'Limelight', cursive;
+}
+/*版面*/
+main {
+    width: 80%;
+    background-color: rgb(254, 255, 255);
+    margin: 12px auto;
+    padding: 80px 60px;
+    border: 10px solid #0e0d0d;
+}
+/*照片*/
+.photo{
+    margin: 30px auto 30px auto;
+    padding: 10px;
+    border: 100px solod #06abec;
+    font-size: 200%;
+    border: 5px solid rgb(10, 10, 10);
+    color:#fff;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+}
+
+/*標題框架*/
+h2 {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 5px dotted lightseagreen;
+    border-left: 5px solid lightpink;
+    color: #6fbb6f;
+}
+/*第一行選單*/
+nav{
+    background-color: rgb(93, 9, 250);
+    text-align: center;
+    width: auto;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav li{
+    list-style-type:none;
+    display: inline-block;
+    margin:0;
+	padding:0;
+    overflow:auto;
+  overflow: ;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+nav li a:hover{
+    background-color: lightsalmon;
+    color: darkviolet;
+    transition: background-color 2s linear,color 2s ease-in-out;
+}
+.post{
+    padding: 5px;
+    text-align: left;
+}

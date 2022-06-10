@@ -1,0 +1,55 @@
+@charset "utf-8";
+#container{
+    width: 100%;
+    background-color:rgb(255, 249, 220);
+    margin:0px auto;
+   }
+   h1{
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid #ffeee6;
+    background-color: #ffdf52;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
+
+}
+p{
+    font-family:Microsoft JhengHei;
+
+    font-size: larger;
+    text-align: center;
+   
+}  
+table{
+    text-align: center;
+    
+}
+.h2{
+    text-size-adjust: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    border:2px dotted #94c8b1;
+    
+    color:#6fbb9a
+    
+    
+}
+
+
+header{
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+section{
+    text-align: center;
+    table-layout: auto;
+}
+footer{
+    background-color:rgb(255, 219, 38);
+}
