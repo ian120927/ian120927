@@ -257,7 +257,14 @@ h2 {
     margin-left: -80px;
     border-radius: 50%;
 }
-
+.imgL:hover {
+    animation: wobble;
+    animation-duration: 1s;
+}
+.imgR:hover {
+    animation: bounce;
+    animation-duration: 1s;
+}
 .clear {
     clear: both;
 }

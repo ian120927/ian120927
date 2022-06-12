@@ -33,7 +33,7 @@ body {
     height: 90px;
     width: 100px;
     text-align: center;
-    padding-top: 25px;
+    padding-top: px;
 }
 
 #menu ul li ul {
@@ -67,7 +67,7 @@ body {
 }
 
 #menu ul li ul li ul {
-    margin-top: -30px;
+    margin-top: 50px;
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 100px;

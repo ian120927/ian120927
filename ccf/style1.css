@@ -1,7 +1,5 @@
-
 body{
-    background-color: lightgoldenrodyellow;
-    background-image: url(img/720.jpg);
+    background-color: rgb(180, 223, 11);
     background-repeat: repeat-x;
     background-position: right top;
     background-size: 50px 100px;
@@ -23,7 +21,10 @@ body{
     font-family: "Times New Roman", Times, serif;
     border-radius: 50%;
 }
-
+.h1:hover{
+    animation: heartBeat;
+    animation-duration: 1s;
+}
 .p/*姓名*/{                                                      
     width: 500px;
     margin: 30px auto 30px auto;
@@ -36,11 +37,12 @@ body{
     box-shadow: 0 0 10px rgba(111, 231, 12, 0.5);
     background-image: linear-gradient(to bottom,#817DF0,#DBD9FA);
     font-family: 'Limelight', cursive;
+
 }
 /*版面*/
 main {
     width: 80%;
-    background-color: rgb(254, 255, 255);
+    background-color: lightblue;
     margin: 12px auto;
     padding: 80px 60px;
     border: 10px solid #0e0d0d;
@@ -56,6 +58,11 @@ main {
     border-radius: 50%;
     text-align: center;
     display: block;
+
+}
+.photo:hover {
+    animation: wobble;
+    animation-duration: 1s;
 }
 
 /*標題框架*/
@@ -86,7 +93,7 @@ nav li a{
     display: block;
     text-decoration: none;
     padding: 10px;
-    color: white;
+    color: rgb(165, 103, 103);
 }
 nav li a:hover{
     background-color: lightsalmon;
